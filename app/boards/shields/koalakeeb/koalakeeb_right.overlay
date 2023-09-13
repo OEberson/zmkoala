@@ -6,7 +6,9 @@
 
 #include "koalakeeb.dtsi"
 
-col-offset = <17>;
+&default_transform {
+    col-offset = <17>;
+};
 
 &kscan0 {
     input-gpios
